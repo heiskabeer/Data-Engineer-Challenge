@@ -74,6 +74,22 @@ The answer may vary depending on individual preferences. However, i believe the 
 
 If it is a Large File, implementing the resume download feature can be highly beneficial as it prevents the need to start the download from scratch
 
+- !['StreamingElapsedTime'](./img/StreamingElapsedTime.PNG)
+
+- The Script ran for **`5 minutes, 51.79 Seconds`** which is slower than `ForLoop Script` **whys that?**
+
+> This is because script performs several tasks per iteration before downloading the file. Here's a breakdown of these tasks:
+
+1. **File Existence Check**: The script checks if the file already exists.
+2. **Download Completion Check**: It verifies if the file has been downloaded completely.
+3. **Resume Download**: If the file exists but is not complete, the script resumes the download by comparing the already downloaded file size to the content header size.
+
+These processes collectively contribute to the extra 2 minutes added to the script's runtime. However, an important question arises: *Is sacrificing download speed for the ability to resume downloads the right choice?*
+
+The answer may vary depending on individual preferences. However, i believe the decision should be influenced by the size of the file one is working with.
+
+If it is a Large File, implementing the resume download feature can be highly beneficial as it prevents the need to start the download from scratch
+
 ### Using Multithreading with (ThreadPoolExecutor): [Find Code Here](ThreadPool.py)
 
 For this script i would be using the `ThreadPoolExecutor` to download the files **concurrently** without `Resumable Download` -> This approach makes use of multithreading to decrease the overall time of the download.
