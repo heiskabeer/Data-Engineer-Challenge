@@ -12,3 +12,13 @@ These solutions would be broken down into exercises, with each exercise focusing
 - Data cleansing / dirty data.
 
 If you're also looking to jump on the challenge [click here](https://github.com/danielbeach/data-engineering-practice)
+
+## Exercises
+
+### Exercise-1: Downloading files
+
+The [first exercise](./Exercise-1/) tests one ability to download a number of files from an `HTTP` source and unzip them, storing them locally with `Python` using `various methods` and approach.
+
+### Exercise-2: Web Scraping + Downloading + Pandas
+
+The [second exercise](./Exercise-2/) tests one ability to perform `web scraping`, `build uris`, `download files`, and use `Pandas` to do some simple cumulative actions.
