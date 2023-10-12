@@ -22,3 +22,7 @@ The [first exercise](./Exercise-1/) tests one ability to download a number of fi
 ### Exercise-2: Web Scraping + Downloading + Pandas
 
 The [second exercise](./Exercise-2/) tests one ability to perform `web scraping`, `build uris`, `download files`, and use `Pandas` to do some simple cumulative actions.
+
+### Exercise-3: Boto3 AWS + s3 + Python
+
+The [third exercise](./Exercise-3/) tests a few skills. This time we  will be using a popular `aws` SDK package called `boto3` to try to perform a multi-step actions to download some open source `s3` data files.
