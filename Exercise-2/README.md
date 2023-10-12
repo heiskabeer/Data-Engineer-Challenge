@@ -8,7 +8,7 @@ You will have to "web scrap" a `HTML` page looking for a date, and identifying t
 
 - [Problem Statement](#problems-statement)
 - [Project Workflow](#project-workflow)
-- [Solution](#the-script-find-code-here)
+- [Solution](#the-script---find-code-here)
 
 ## Problems Statement
 
