@@ -28,8 +28,22 @@ Generally, your script should do the following ...
 4. Again, download the that `uri` file from `s3` using `boto3` again.
 5. Print each line, iterate to stdout/command line/terminal.
 
-**Extra Credit:**
+### **Extra Credit:**
 
 - DO NOT load the entire final file into memory before printing each line,
 stream the file.
 - DO NOT download the initial `gz` file onto disk, download, extract, and read it in memory.
+
+## Solution
+
+The script is broken down into 3 functions: -> The name are pretty straightword and you should understand what they do, right off.
+
+- `download_file`: uses boto3 resource `download_file` method to download the file to disk.
+- `extract_gz`: extracts the file zip downloaded
+- `read_file`: reads the extracted file and retrieve the first line to be extracted all over again.
+
+![log](../img/e3log.PNG)
+
+I keep encountering the error `(reached max retries: 4): Please reduce your request rate.` -> this error has to do with the s3 max request limit and to overcome it i implemented a backoff strategy that timeouts and sleep the code for some time before making another request.
+
+This solution doesn't contain the [Extra Credit aspect](#extra-credit). that will be updated later..
