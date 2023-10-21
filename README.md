@@ -29,7 +29,11 @@ The [third exercise](./Exercise-3/) tests a few skills. This time we  will be us
 
 ### Exercise 4 - Convert JSON to CSV + Ragged Directories
 
-The [fourth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-4) 
-focuses more file types `json` and `csv`, and working with them in `Python`.
+The [fourth exercise](./Exercise-4/) focuses more file types `json` and `csv`, and working with them in `Python`.
 You will have to traverse a ragged directory structure, finding any `json` files
 and converting them to `csv`.
+
+### Exercise 5 - Data Modeling for Postgres + Python
+
+The [fifth exercise](./Exercise-5/) is going to be a little different than the rest. In this problem you will be given a number of `csv` files. You must create a data model / schema to hold these data sets, including indexes,
+then create all the tables inside `Postgres` by connecting to the database with `Python`.

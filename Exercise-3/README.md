@@ -8,7 +8,7 @@ Working with the `Python` package `boto3` to interact with `aws` is very common,
 
 - [Problem Statement](#problems-statement)
 - [Project Workflow](#project-workflow)
-- [Solution](#the-script-find-code-here)
+- [Solution](#solution)
 
 ## Problems Statement
 

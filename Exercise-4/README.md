@@ -6,6 +6,12 @@ When `json` files are found, we will then convert them to `csv` files.
 
 We can work with three nice `Python` packages, `glob`, `json`, and `csv`.
 
+## Table of Content
+
+- [Problem Statement](#problems-statement)
+- [Project Workflow](#project-workflow)
+- [Solution](#solution)
+
 ## Problems Statement
 
 There is a folder called `data` in this current directory, `Exercise-4`. There are also
@@ -17,13 +23,15 @@ you will have to flatten out some of the nested `json` data structures.
 
 For example there is a `{"type":"Point","coordinates":[-99.9,16.88333]}` that must flattened.
 
-### Generally, your script should do the following:
+## Project Workflow
+
+Generally, your script should do the following:
 
 1. Crawl the `data` directory with `Python` and identify all the `json` files.
 2. Load all the `json` files.
 3. Flatten out the `json` data structure.
 4. Write the results to a `csv` file, one for one with the json file, including the header names
 
-### Solution
+## Solution
 
 check out the [script](./script.py) for the solution. It contains explainatory comments that explains what im trying to achieve at each step.
