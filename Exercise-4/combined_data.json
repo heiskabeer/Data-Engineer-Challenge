@@ -1,0 +1,58 @@
+[
+{
+"name": "Aachen",
+"id": "1",
+"nametype": "Valid",
+"recclass": "L5",
+"mass": "21",
+"fall": "Fell",
+"year": "1880-01-01T00:00:00.000",
+"reclat": "50.775000",
+"reclong": "6.083330",
+"geolocation_type": "Point",
+"longitude": 6.08333,
+"latitude": 50.775
+},
+{
+"name": "Acapulco",
+"id": "10",
+"nametype": "Valid",
+"recclass": "Acapulcoite",
+"mass": "1914",
+"fall": "Fell",
+"year": "1976-01-01T00:00:00.000",
+"reclat": "16.883330",
+"reclong": "-99.900000",
+"geolocation_type": "Point",
+"longitude": -99.9,
+"latitude": 16.88333
+},
+{
+"name": "Abee",
+"id": "6",
+"nametype": "Valid",
+"recclass": "EH4",
+"mass": "107000",
+"fall": "Fell",
+"year": "1952-01-01T00:00:00.000",
+"reclat": "54.216670",
+"reclong": "-113.000000",
+"geolocation_type": "Point",
+"longitude": -113,
+"latitude": 54.21667
+},
+{
+"name": "Aarhus",
+"id": "2",
+"nametype": "Valid",
+"recclass": "H6",
+"mass": "720",
+"fall": "Fell",
+"year": "1951-01-01T00:00:00.000",
+"reclat": "56.183330",
+"reclong": "10.233330",
+"geolocation_type": "Point",
+"longitude": 10.23333,
+"latitude": 56.18333
+}
+]

@@ -26,3 +26,10 @@ The [second exercise](./Exercise-2/) tests one ability to perform `web scraping`
 ### Exercise-3: Boto3 AWS + s3 + Python
 
 The [third exercise](./Exercise-3/) tests a few skills. This time we  will be using a popular `aws` SDK package called `boto3` to try to perform a multi-step actions to download some open source `s3` data files.
+
+### Exercise 4 - Convert JSON to CSV + Ragged Directories
+
+The [fourth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-4) 
+focuses more file types `json` and `csv`, and working with them in `Python`.
+You will have to traverse a ragged directory structure, finding any `json` files
+and converting them to `csv`.
