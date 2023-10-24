@@ -37,3 +37,7 @@ and converting them to `csv`.
 
 The [fifth exercise](./Exercise-5/) is going to be a little different than the rest. In this problem you will be given a number of `csv` files. You must create a data model / schema to hold these data sets, including indexes,
 then create all the tables inside `Postgres` by connecting to the database with `Python`.
+
+#### Exercise 6 - Ingestion and Aggregation with PySpark
+
+The [sixth exercise](./Exercise-6/) Is going to step it up a little and move onto more popular tools. In this exercise we are going to load some files using `PySpark` and then be asked to do some basic aggregation.

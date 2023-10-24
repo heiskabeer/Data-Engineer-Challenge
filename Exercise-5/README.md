@@ -6,6 +6,7 @@ In this fifth exercise you will work on a few different topics, data modeling, P
 
 - [Problem Statement](#problems-statement)
 - [Project Workflow](#project-workflow)
+- [ER Diagram](#er-diagram)
 - [Solution](#solution)
 
 ## Problems Statement
@@ -28,7 +29,7 @@ Generally, your script should do the following:
 4. Create the tables against the database.
 5. Ingest the `csv` files into the tables you created, also using `psycopg2`
 
-## Architectural Diagram of the DB
+## ER Diagram
 
 ![schema](../img/schema.PNG)
 
